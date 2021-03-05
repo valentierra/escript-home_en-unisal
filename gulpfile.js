@@ -46,7 +46,7 @@ gulp.task('scripts', function() {
     .src([
         npm_src   + 'jquery/dist/jquery.min.js',
         npm_src   + 'fitvids/dist/fitvids.min.js',
-        npm_src   + '../bootstrap-sass/assets/javascripts/bootstrap.min.js',
+        npm_src   + 'bootstrap-sass/assets/javascripts/bootstrap.min.js',
         npm_src   + 'moment/min/moment.min.js',
         npm_src   + 'vanilla-lazyload/dist/lazyload.js',
         npm_src   + 'jquery-viewport-checker/dist/jquery.viewportchecker.min.js',

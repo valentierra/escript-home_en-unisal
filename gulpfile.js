@@ -49,7 +49,7 @@ gulp.task('scripts', function() {
         npm_src   + 'bootstrap-sass/assets/javascripts/bootstrap.min.js',
         npm_src   + 'moment/min/moment.min.js',
         npm_src   + 'vanilla-lazyload/dist/lazyload.js',
-        npm_src   + 'jquery-viewport-checker/dist/jquery.viewportchecker.min.js',
+        // npm_src   + 'jquery-viewport-checker/dist/jquery.viewportchecker.min.js',
         npm_src   + 'salvattore/dist/salvattore.min.js',
         npm_src   + '@tryghost/content-api/umd/content-api.min.js',
         npm_src   + 'ghost-search/dist/ghost-search.js',

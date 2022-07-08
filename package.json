@@ -71,7 +71,7 @@
     "ghost-search": "^1.0.1",
     "jquery": "^3.5.0",
     "lazysizes": "^5.2.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "salvattore": "^1.0.9",
     "vanilla-lazyload": "^8.17.0"
   },

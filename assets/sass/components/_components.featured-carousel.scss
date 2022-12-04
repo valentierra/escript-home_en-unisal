@@ -4,7 +4,7 @@
 
 .featured-posts {
   background-color: $color-dark;
-	
+
 	.featured-post__image {
 		min-height: 30em;
     height: 100vh;
@@ -21,7 +21,7 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
     bottom: auto;
     left: auto;
     margin-left: auto;
@@ -48,12 +48,12 @@
 	}
 
   .featured-posts__control-wrapper {
-    position: absolute; 
-    left: 0; 
-    right: 0; 
+    position: absolute;
+    left: 0;
+    right: 0;
     bottom: 0;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
     width: 9em;
     height: 5em;
   }
@@ -75,7 +75,7 @@
     &.left {
     	right: 2.4em;
     	margin-right: 1.5em;
-    	
+
     	&:hover {
     		.carousel-control-prev { color: $color-dark; }
     	}
@@ -127,14 +127,14 @@
     	color: $color-light;
       display: table;
 
-    	a { 
-    		color: $color-light; 
+    	a {
+    		color: $color-light;
 
     		&:visited { color: $color-light; }
     	}
     }
 
-    .featured-post__author, 
+    .featured-post__author,
     .featured-post__date {
       display: inline-block;
     }
@@ -153,30 +153,30 @@
     }
 
     .featured-post__title {
-      font-size: 2rem;
+      font-size: 1rem;
       animation-delay: $global-transition;
-      
-      @include mq($from: sm) { 
-        font-size: 3rem;   
+
+      @include mq($from: sm) {
+        font-size: 2rem;
         margin: 0 0 0.4em;
         line-height: 1.3;
       }
-      @include mq($from: md) { font-size: 3.5rem; }
-      @include mq($from: lg) { 
-        font-size: 4rem;
+      @include mq($from: md) { font-size: 2.5rem; }
+      @include mq($from: lg) {
+        font-size: 3rem;
         line-height: 1.2;
       }
     }
 
-    .featured-post__tag { 
-      animation-delay: 0.8s; 
+    .featured-post__tag {
+      animation-delay: 0.8s;
 
       @include mq($from: md) { font-size: 1.1rem; }
       @include mq($from: lg) { font-size: 1.2rem; }
     }
 
-    .featured-post__info { 
-      animation-delay: 0.4s; 
+    .featured-post__info {
+      animation-delay: 0.4s;
       margin-bottom: $spacing-base;
 
       &>div {
@@ -184,8 +184,8 @@
         border-right: 1px solid $color-light;
 
         &:first-of-type { padding-left: 0; }
-        &:last-of-type { 
-          border: none; 
+        &:last-of-type {
+          border: none;
           padding-right: 0;
         }
       }
@@ -193,9 +193,9 @@
       @include mq($from: md) { font-size: 1.1rem; }
       @include mq($from: lg) { font-size: 1.2rem; }
     }
-    
-    .read-more { 
-      animation-delay: 1.2s; 
+
+    .read-more {
+      animation-delay: 1.2s;
       padding: $spacing-small 0;
       display: table;
 
@@ -204,7 +204,7 @@
 
       a {
         border-width: 1px;
-        font-weight: $font-weight-regular; 
+        font-weight: $font-weight-regular;
 
         @include mq($from: sm) {
           padding: 0.35em 0.7em;
